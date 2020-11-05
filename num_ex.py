@@ -1,0 +1,13 @@
+import numpy as np
+k = np.arange(12)
+print(k)
+print("Dimension",k.ndim)
+k1 = k.reshape(3,4)
+print(k1)
+print("Dimension", k1.ndim)
+print("No. of elements in k1", len(k1))
+k2 = np.linspace(1, 50, 10)
+print(k2)
+print("Sin value", np.sin(45))
+a = np.array([[1,2],[3,4]], dtype = complex)
+print(a)
